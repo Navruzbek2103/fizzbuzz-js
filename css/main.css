@@ -60,3 +60,44 @@ input{
   max-width: 100px;
   width: 100%;
 }
+
+@media only screen and (max-width: 580px){
+
+  .container{
+    max-width: 400px;
+  }
+
+  input{
+    max-width: 300px;
+    font-size: 20px;
+    padding: 10px 25px;
+  }
+
+  #valueSubmit, #valueReset{
+    max-width: 150px;
+  }
+
+  #valueBgColor{
+    max-width: 80px;
+  }
+}
+
+@media only screen and (max-width: 450px){
+
+  .container{
+    max-width: 320px;
+  }
+
+  input{
+    max-width: 220px;
+    font-size: 16px;
+  }
+
+  #valueSubmit, #valueReset{
+    max-width: 100px;
+  }
+
+  #valueBgColor{
+    max-width: 50px;
+  }
+}
